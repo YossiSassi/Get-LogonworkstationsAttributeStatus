@@ -17,6 +17,6 @@ ChangeUSN = the LastOriginatingChangeUsn property, the universal sequencial numb
 
 Version = The number of times this property has been updated (e.g. 2 means twice)
 
-Comment = a generated field used to indicate that the empty value field doesn't mean it was never set, yet that it was deliberately Reset Back to the default Empty value (Cleared).
+Comment = a generated field used to indicate if this attribute was **CLEARED DELIBERATELY**, rather than showing empty since it was never set (Reset Back to the default Empty value <Cleared>).
 
 ### To get all changes for all properties, including userWorkstations, as well as who did the change (the subject user), see [Get-ChangesInADUser](https://www.github.com/YossiSassi/Get-ChangesInADUser) script.
